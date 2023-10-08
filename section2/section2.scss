@@ -1,0 +1,34 @@
+.servise{
+    width: 100%;
+    background-color:  #FAF8F0;
+    padding: 80px 0px;
+    &__top{
+        text-align: center;
+        color: #52503B;
+        &-title{
+            padding: 0px 480px;
+         &-style{
+            color: #52503B;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 32px;
+         }
+        }
+    }
+    &__bottom{
+        text-align: center;
+        &-list{
+            list-style: none;
+            display: flex;
+            position: relative;
+            color: #52503B;
+            top: 70px;
+            gap: 100px;
+            justify-content: center;
+            &-item{
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.about{
+    width: 100%; 
+    background-color: #FAF8F0;
+    &-img{
+        text-align: center;
+        position: relative;
+        top: 70px;
+    }
+    &__title{
+    color: #52503B; 
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 170px 230px;
+    }
+    &__theme{
+        background-color: #fff;
+        text-align: center;
+        font-family: Montserrat;
+         font-size: 96px;
+         padding: 140px 70px;
+    }
+    &__photo{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/IMAGE\ \(10\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
