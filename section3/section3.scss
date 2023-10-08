@@ -1,0 +1,35 @@
+.extra{
+    width: 100%;
+    &__top{
+        padding: 100px 700px 0px 136px;
+        &-style{
+            color: #52503B;
+            font-family: Montserrat;
+            font-size: 32px;
+        }
+    }
+    &__bottom{
+        padding: 0px 100px 100px 100px;
+        display: flex;
+        &-left{
+            list-style: none;
+            color: #52503B;
+            font-family: Montserrat;
+            font-size: 14px;
+            &-list{
+                display: flex;
+                gap: 20px;
+            }
+        }
+        &-right{
+            list-style: none;
+            color: #52503B;
+            font-family: Montserrat;
+            font-size: 14px;
+            &-title{
+                display: flex;
+                gap: 20px;
+            }
+        }
+    }
+}

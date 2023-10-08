@@ -1,1 +1,35 @@
-/*# sourceMappingURL=section3.css.map */
+.extra {
+  width: 100%;
+}
+.extra__top {
+  padding: 100px 700px 0px 136px;
+}
+.extra__top-style {
+  color: #52503B;
+  font-family: Montserrat;
+  font-size: 32px;
+}
+.extra__bottom {
+  padding: 0px 100px 100px 100px;
+  display: flex;
+}
+.extra__bottom-left {
+  list-style: none;
+  color: #52503B;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.extra__bottom-left-list {
+  display: flex;
+  gap: 20px;
+}
+.extra__bottom-right {
+  list-style: none;
+  color: #52503B;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.extra__bottom-right-title {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=section3.css.map */
