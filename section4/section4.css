@@ -1,1 +1,60 @@
-/*# sourceMappingURL=section4.css.map */
+.page4 {
+  width: 100%;
+  background-color: #FAF8F0;
+  text-align: center;
+  padding: 100px 0px;
+}
+.page4 .wrap {
+  color: #52503B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+}
+.page4 .wrap2 {
+  color: #52503B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.page4__menu {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.page4__menu-left {
+  width: 584px;
+  height: 286px;
+  text-align: start;
+  border-radius: 4px solid;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.page4__menu-left-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.page4__menu-left-list img {
+  position: relative;
+  top: 14px;
+}
+.page4__menu-right {
+  width: 584px;
+  height: 286px;
+  text-align: start;
+  border-radius: 4px solid;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.page4__menu-right ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.page4__menu-right ul li img {
+  position: relative;
+  top: 14px;
+}/*# sourceMappingURL=section4.css.map */
