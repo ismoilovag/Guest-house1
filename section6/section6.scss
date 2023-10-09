@@ -1,0 +1,45 @@
+.section6{
+    padding: 100px 0px;
+    width: 100%;
+    background-color: #FAF8F0;
+    text-align: center;
+    &-div{
+        padding: 0px 270px 0px;
+    }
+    h2{
+        color: #52503B;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 40px;
+    }
+    p{
+        color: #52503B;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+    }
+    &__finish{
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        .section6-btn{
+            padding: 15px 35px;
+            color: #52503B;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 6px;
+            border: 4px solid #52503B;      
+            background-color: #FAF8F0;
+        }
+        .section6-btn2{
+            border-radius: 6px;
+            background: #52503B;
+            padding: 18px 35px;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            border: 4px ; 
+        }
+    }
+
+}

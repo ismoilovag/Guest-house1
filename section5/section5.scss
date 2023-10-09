@@ -1,0 +1,52 @@
+.continer{
+    width: 100%;
+    &__image{
+        width: 100%;
+        height: 100vh;
+    }
+    &__next{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        padding: 60px 150px ;
+        &-left{
+            &-title{
+                color: #52503B;
+                font-family: Montserrat;
+                font-size: 32px;
+            }
+            &-title2{
+                color: #52503B;
+                font-family: Montserrat;
+                font-size: 16px;
+            }
+        }
+            &-right{
+                padding: 40px 0px 0px;
+            //  display: flex;
+            //  gap: 40px;
+                &-wifi{
+                    display: flex;
+                    gap: 10px;
+                }
+                &-second{
+                    padding: 30px 0px 0px;
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+     &-end{
+        padding: 40px 0px 0px;
+        &-bread{
+            display: flex;
+            gap: 10px;
+        }
+        &-service{
+            padding: 30px 0px 0px;
+            display: flex;
+            gap: 10px;
+        }
+     }
+             }
+            }
+        
